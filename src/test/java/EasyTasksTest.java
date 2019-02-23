@@ -11,6 +11,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -110,7 +111,90 @@ public class EasyTasksTest {
         System.out.println(res);
     }
 
+    @ParameterizedTest
+    @CsvSource({"'3,0,1'", "'9,6,4,2,3,5,7,0,1'", "'4,1,2,0'"})
+    void missingNumber(@ConvertWith(StringArrayConverter.class) Integer[] nums) {
+        int res = easyTasks.missingNumber(nums);
+        System.out.println(res);
+    }
+
+    @ParameterizedTest
+    @CsvSource({"'1,2,2,1', '2,2'",
+            "'4,9,5', '9,4,9,8,4'"
+    })
+    void intersectArray(@ConvertWith(StringArrayConverter.class) Integer[] nums1,
+                        @ConvertWith(StringArrayConverter.class) Integer[] nums2) {
+        List<Integer> res = easyTasks.intersect(nums1, nums2);
+        System.out.println(Arrays.asList(res));
+    }
+
+    @Test
+    void mergeTwoLists() {
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(2);
+        l1.next.next = new ListNode(4);
+
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(3);
+        l2.next.next = new ListNode(4);
+
+        ListNode resList = easyTasks.mergeTwoLists(l1, l2);
+
+        while (resList != null) {
+            System.out.println(resList.val);
+            resList = resList.next;
+        }
+
+
+    }
+
+    @Test
+    void pascalTriangle() {
+        List<List<Integer>> res = easyTasks.pascalTriangle(5);
+        res.stream().map(Arrays::asList).forEach(System.out::println);
+    }
+
+    @Test
+    void maxSubArray() {
+        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        easyTasks.maxSubArray(nums);
+
+    }
+
+    @Test
+    void hammingWeight() {
+        int res = easyTasks.hammingWeight(19);
+        System.out.println(res);
+    }
+
+    @Test
+    void twoSum() {
+        int[] nums = {2, 7, 11, 15};
+        int target = 13;
+        int[] res = easyTasks.twoSum(nums, target);
+        System.out.println(Arrays.asList(res));
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "'1,2,3,4'",
+            "'9,9'",
+    })
+    void plusOne(@ConvertWith(StringArrayConverter.class) Integer[] digits) {
+        Integer[] res = easyTasks.plusOne(digits);
+        System.out.println(Arrays.asList(res));
+    }
+
+
+    @ParameterizedTest
+    @ValueSource(strings = {"()", "{[]}", "([})", "([{]]]"})
+    void validParentheses(String s) {
+        boolean res = easyTasks.isValid(s);
+        System.out.println(res);
+    }
+
 }
+
 
 class StringArrayConverter extends SimpleArgumentConverter {
     @Override

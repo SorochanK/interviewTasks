@@ -16,7 +16,7 @@ public class EasyTasks {
      * array in-place with O(1) extra memory.
      *
      * */
-    public void reverseString(char[] s) {
+    void reverseString(char[] s) {
         char tmp;
         int n = s.length;
         for (int i = 0; i < n / 2; i++) {
@@ -37,7 +37,8 @@ public class EasyTasks {
     Given binary tree [3,9,20,null,null,15,7]
     return is 3
     */
-    public int maxDepth(TreeNode root) {
+    int maxDepth(TreeNode root) {
+        //NOT MY SOLUTION
         if (root == null) return 0;
         return Math.max(maxDepth(root.left) + 1, maxDepth(root.right) + 1);
     }
@@ -52,7 +53,7 @@ public class EasyTasks {
       Output: 1
     *
     * */
-    public int singleNumber(int[] nums) {
+    int singleNumber(int[] nums) {
         return 0;
     }
 
@@ -68,7 +69,7 @@ public class EasyTasks {
         Output: [1,3,12,0,0]
      *
      * */
-    public void moveZeroes(int[] nums) {
+    void moveZeroes(int[] nums) {
 
         Deque<Integer> tmp = new ArrayDeque<>();
         for (int num : nums) if (num != 0) tmp.addLast(num);
@@ -102,14 +103,15 @@ public class EasyTasks {
       Input: 1->2->3->4->5->NULL
       Output: 5->4->3->2->1->NULL
     * */
-    public ListNode reverseList(ListNode head) {
+    ListNode reverseList(ListNode head) {
+        //NOT MY SOLUTION
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
-            //ListNode nextTemp = curr.next;
+            ListNode nextTemp = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = curr.next;
+            curr = nextTemp;
         }
         return prev;
     }
@@ -121,7 +123,7 @@ public class EasyTasks {
       Output: [4,1,9]
     *
     * */
-    public void deleteNode(ListNode head, int val) {
+    void deleteNode(ListNode head, int val) {
         ListNode prev = null;
         ListNode curr = head;
         while (curr.val != val) {
@@ -141,7 +143,7 @@ public class EasyTasks {
         Input: [2,2,1,1,1,2,2]
         Output: 2
     * */
-    public int majorityElement(int[] nums) {
+    int majorityElement(int[] nums) {
         Map<Integer, Integer> numQty = new HashMap<>();
         for (int num : nums) {
             if (numQty.containsKey(num)) numQty.put(num, numQty.get(num) + 1);
@@ -158,7 +160,7 @@ public class EasyTasks {
      * task 8(242) valid anagram
      * Given two strings s and t , write a function to determine if t is an anagram of s.
      * */
-    public boolean isAnagram(String s, String t) {
+    boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
         List<String> s1 = new LinkedList<>(Arrays.asList(s.split("")));
         List<String> t1 = new LinkedList<>(Arrays.asList(t.split("")));
@@ -174,7 +176,8 @@ public class EasyTasks {
       and it should return false if every element is distinct.
     *
     * */
-    public boolean containDuplicate(Integer[] nums) {
+    boolean containDuplicate(Integer[] nums) {
+        //NOT MY SOLUTION
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 1; ++i) {
             if (nums[i].equals(nums[i + 1])) return true;
@@ -188,7 +191,7 @@ public class EasyTasks {
      * Given a string, find the first non-repeating character in it and return it's index.
      * If it doesn't exist, return -1.
      * */
-    public int firstUniqueChar(String s) {
+    int firstUniqueChar(String s) {
         String[] sArr = s.split("");
         Map<String, Integer> items = new HashMap<>();
         for (int i = 0; i < sArr.length; i++) {
@@ -199,8 +202,214 @@ public class EasyTasks {
         return result.get(0) != null ? result.get(0) : 0;
     }
 
+    /*
+     * task 11(268) missing number
+     *
+     * Given an array containing n distinct numbers taken from 0, 1, 2, ..., n,
+     * find the one that is missing from the array.
+     *
+     * */
+    int missingNumber(Integer[] nums) {
+        int sum = 0;
+        int sumNums = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += i;
+            sumNums += nums[i];
+        }
+        sum += nums.length;
+        return sum - sumNums;
+    }
+    /*
+    * task 12(350) intersection of two arrays
+    * Given two arrays, write a function to compute their intersection.
+    *
+    * Example 1:
+
+      Input: nums1 = [1,2,2,1], nums2 = [2,2]
+      Output: [2,2]
+      Example 2:
+
+      Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+      Output: [4,9]
+    *
+    * */
+
+    List<Integer> intersect(Integer[] nums1, Integer[] nums2) {
+        List<Integer> list1 = Arrays.stream(nums1).collect(Collectors.toList());
+        List<Integer> list2 = Arrays.stream(nums2).collect(Collectors.toList());
+        List<Integer> res = new ArrayList<>();
+        for (Integer item : list1) if (list2.contains(item)) res.add(item);
+        return res;
+    }
+
+    /*
+    * task 13 (21) merge two lists
+    *
+    * Merge two sorted linked lists and return it as a new list.
+    * The new list should be made by splicing together the nodes of the first two lists.
+    *
+    * Example:
+      Input: 1->2->4, 1->3->4
+      Output: 1->1->2->3->4->4
+    *
+    * */
+    ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        //NOT MY SOLUTION
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
+        if (l1.val < l2.val) {
+            l1.next = mergeTwoLists(l1.next, l2);
+            return l1;
+        } else {
+            l2.next = mergeTwoLists(l1, l2.next);
+            return l2;
+        }
+    }
+
+    /*
+     * task 14 (118) pascal`s triangle
+     *
+     * Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
+     *
+     * */
+    List<List<Integer>> pascalTriangle(int numRows) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> row;
+        List<Integer> prevRow = new ArrayList<>(Arrays.asList(1));
+        res.add(prevRow);
+
+        for (int i = 0; i < numRows - 1; i++) {
+            row = new ArrayList<>();
+            for (int j = 0; j < prevRow.size() - 1; j++) row.add(prevRow.get(j) + prevRow.get(j + 1));
+            row.add(0, 1);
+            row.add(row.size(), 1);
+            prevRow = row;
+            res.add(row);
+        }
+        return res;
+    }
+
+
+
+    /*
+    * task 15 (53) maximum subarray
+    *
+    * Given an integer array nums, find the contiguous subarray
+    * (containing at least one number) which has the largest sum and return its sum.
+    *
+    * Example:
+      Input: [-2,1,-3,4,-1,2,1,-5,4],
+      Output: 6
+      Explanation: [4,-1,2,1] has the largest sum = 6.
+    *
+    * */
+
+    int maxSubArray(int[] nums) {
+        return 0;
+    }
+
+
+
+    /*
+     * task 16(191) hamming weight
+     *
+     *
+     * Write a function that takes an unsigned integer and return the number of '1' bits it has
+     * (also known as the Hamming weight).
+     *
+     * */
+
+    int hammingWeight(int n) {
+        int res = 0, t;
+        while (n != 0) {
+            t = n % 2 == 0 ? n : n - 1;
+            if (n - t == 1) res += 1;
+            n /= 2;
+        }
+        return res;
+    }
+
+    /*
+    * task 17 (1) two sum
+    *
+    * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+      You may assume that each input would have exactly one solution, and you may not use the same element twice.
+    *
+    * Example:
+
+      Given nums = [2, 7, 11, 15], target = 9,
+
+      Because nums[0] + nums[1] = 2 + 7 = 9,
+      return [0, 1].
+    *
+    *
+    * */
+    int[] twoSum(int[] nums, int target) {
+        //NOT MY SOLUTION
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};
+            }
+            map.put(nums[i], i);
+        }
+        throw new IllegalArgumentException("No two sum solution");
+    }
+
+    /*
+    * task 18 (66) plus one
+    *
+    * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
+    The digits are stored such that the most significant digit is at the head of the list,
+     and each element in the array contain a single digit.
+    You may assume the integer does not contain any leading zero, except the number 0 itself.
+    *Example 1:
+
+     Input: [1,2,3]
+     Output: [1,2,4]
+     Explanation: The array represents the integer 123.
+
+     Example 2:
+
+     Input: [4,3,2,1]
+     Output: [4,3,2,2]
+     Explanation: The array represents the integer 4321.
+    *
+    * */
+    Integer[] plusOne(Integer[] digits) {
+        StringBuilder sb = new StringBuilder();
+        for (int digit : digits) sb.append(digit);
+        String[] nums = Integer.toString(Integer.parseInt(sb.toString()) + 1).split("");
+        return Arrays.stream(nums).map(Integer::parseInt).toArray(Integer[]::new);
+    }
+
+    /*
+     * task 19 (20) valid parentheses
+     *
+     * */
+    boolean isValid(String s) {
+        Stack<Character> stash = new Stack<>();
+        String opened = "([{";
+        for (int i = 0; i < s.length(); i++) {
+            Character ch = s.charAt(i);
+            if (opened.indexOf(ch) != -1) stash.push(ch);
+            else {
+                Character t = stash.pop();
+                if ((t == '[' && ch != ']')
+                        || (t == '(' && ch != ')')
+                        || (t == '{' && ch != '}')) return false;
+            }
+        }
+        return true;
+    }
+
 
 }
+
+
+
+
 
 
 

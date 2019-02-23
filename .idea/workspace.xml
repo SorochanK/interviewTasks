@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56340627-1da0-47c0-9427-d9170ff79303" name="Default" comment="" />
+    <list default="true" id="56340627-1da0-47c0-9427-d9170ff79303" name="Default" comment="solved tasks and added minStack class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EasyTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EasyTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EasyTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EasyTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EasyTasksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EasyTasksTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StringArrayConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StringArrayConverter.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EasyTasks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EasyTasks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="197" column="8" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
+            <state relative-caret-position="-3238">
+              <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -33,8 +48,8 @@
       <file leaf-file-name="EasyTasksTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="135">
+              <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,6 +66,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>public</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -59,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/main/java/SubClasses/ListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/EasyTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinStack.java" />
       </list>
     </option>
   </component>
@@ -76,12 +103,12 @@
     <option name="width" value="654" />
     <option name="height" value="767" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,12 +148,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="questions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,17 +186,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EasyTasksTest.firstUniqueChar">
+  <component name="RunManager" selected="JUnit.EasyTasksTest.validParentheses">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EasyTasksTest.containDuplicate (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.hammingWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="containDuplicate([Ljava.lang.String;)" />
+      <option name="METHOD_NAME" value="hammingWeight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -172,13 +207,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.containDuplicate (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.maxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="containDuplicate([Ljava.lang.Integer;)" />
+      <option name="METHOD_NAME" value="maxSubArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -189,13 +224,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.containDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.plusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="containDuplicate([int)" />
+      <option name="METHOD_NAME" value="plusOne([Ljava.lang.Integer;)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -206,13 +241,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.firstUniqueChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="firstUniqueChar(java.lang.String)" />
+      <option name="METHOD_NAME" value="twoSum" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -223,13 +258,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.singleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.validParentheses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="singleNumber" />
+      <option name="METHOD_NAME" value="validParentheses(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -279,19 +314,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EasyTasksTest.containDuplicate" />
-      <item itemvalue="JUnit.EasyTasksTest.containDuplicate (1)" />
-      <item itemvalue="JUnit.EasyTasksTest.containDuplicate (2)" />
-      <item itemvalue="JUnit.EasyTasksTest.singleNumber" />
-      <item itemvalue="JUnit.EasyTasksTest.firstUniqueChar" />
+      <item itemvalue="JUnit.EasyTasksTest.maxSubArray" />
+      <item itemvalue="JUnit.EasyTasksTest.hammingWeight" />
+      <item itemvalue="JUnit.EasyTasksTest.twoSum" />
+      <item itemvalue="JUnit.EasyTasksTest.plusOne" />
+      <item itemvalue="JUnit.EasyTasksTest.validParentheses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EasyTasksTest.firstUniqueChar" />
-        <item itemvalue="JUnit.EasyTasksTest.containDuplicate (2)" />
-        <item itemvalue="JUnit.EasyTasksTest.singleNumber" />
-        <item itemvalue="JUnit.EasyTasksTest.containDuplicate (1)" />
-        <item itemvalue="JUnit.EasyTasksTest.containDuplicate" />
+        <item itemvalue="JUnit.EasyTasksTest.validParentheses" />
+        <item itemvalue="JUnit.EasyTasksTest.plusOne" />
+        <item itemvalue="JUnit.EasyTasksTest.hammingWeight" />
+        <item itemvalue="JUnit.EasyTasksTest.twoSum" />
+        <item itemvalue="JUnit.EasyTasksTest.maxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -306,55 +341,55 @@
       <option name="presentableId" value="Default" />
       <updated>1550594518375</updated>
       <workItem from="1550594527775" duration="23300000" />
-      <workItem from="1550827666797" duration="3403000" />
+      <workItem from="1550827666797" duration="17272000" />
+      <workItem from="1550922797698" duration="4227000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EasyTasksTest_singleNumber - 2019.02.22 at 11h 37m 55s.xml">
-      <configuration name="EasyTasksTest.singleNumber" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 26m 16s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_singleNumber - 2019.02.22 at 11h 38m 12s.xml">
-      <configuration name="EasyTasksTest.singleNumber" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 26m 35s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_singleNumber - 2019.02.22 at 11h 38m 42s.xml">
-      <configuration name="EasyTasksTest.singleNumber" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 32m 17s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_singleNumber - 2019.02.22 at 11h 38m 59s.xml">
-      <configuration name="EasyTasksTest.singleNumber" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 35m 52s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_singleNumber - 2019.02.22 at 11h 47m 22s.xml">
-      <configuration name="EasyTasksTest.singleNumber" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 36m 39s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_containDuplicate_(2) - 2019.02.22 at 11h 49m 20s.xml">
-      <configuration name="EasyTasksTest.containDuplicate (2)" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 37m 38s.xml">
+      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_containDuplicate_(2) - 2019.02.22 at 11h 49m 34s.xml">
-      <configuration name="EasyTasksTest.containDuplicate (2)" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 49m 52s.xml">
+      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_firstUniqueChar - 2019.02.22 at 11h 54m 17s.xml">
-      <configuration name="EasyTasksTest.firstUniqueChar" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 50m 31s.xml">
+      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_firstUniqueChar - 2019.02.22 at 12h 29m 00s.xml">
-      <configuration name="EasyTasksTest.firstUniqueChar" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 50m 48s.xml">
+      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_firstUniqueChar - 2019.02.22 at 12h 29m 41s.xml">
-      <configuration name="EasyTasksTest.firstUniqueChar" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 54m 04s.xml">
+      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26703000" />
+    <option name="totallyTimeSpent" value="44799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Tail" order="7" />
@@ -368,19 +403,19 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27856025" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.27346277" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28794992" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286385" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.27831715" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5011655" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,20 +424,42 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solved tasks and added minStack class" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved tasks and added minStack class" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5899">
+          <caret line="347" column="31" selection-start-line="347" selection-start-column="31" selection-end-line="347" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2941">
+          <caret line="173" column="35" lean-forward="true" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
           <caret line="177" column="8" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -421,10 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,10 +505,90 @@
     <entry file="file://$PROJECT_DIR$/../Algorithms/src/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.3.2/junit-platform-engine-1.3.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar!/org/junit/jupiter/engine/execution/JupiterEngineExecutionContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="1278" selection-start-line="1278" selection-end-line="1278" />
+          <folding>
+            <element signature="e#46796#46797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/stream/StreamSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="580" selection-start-line="580" selection-end-line="580" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar!/org/junit/jupiter/engine/extension/ExtensionRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.3.2/junit-jupiter-engine-5.3.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="135">
+          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -464,13 +597,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="197" column="8" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
+        <state relative-caret-position="-3238">
+          <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
