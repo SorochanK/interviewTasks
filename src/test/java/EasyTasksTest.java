@@ -193,6 +193,48 @@ public class EasyTasksTest {
         System.out.println(res);
     }
 
+    @ParameterizedTest
+    @CsvSource({
+            "'flower,flow,flight,flober,flickr'",
+            "'dog,racecar,car'"
+    })
+    void longestCommonPrefix(@ConvertWith(StringToStringArray.class) String[] strs) {
+        String res = easyTasks.longestCommonPrefix(strs);
+        System.out.println(res);
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+            "hello , ll",
+            "aaaa ba",
+            "flower r"
+    })
+    void strStr(String haystack, String needle) {
+        int res = easyTasks.strStr(haystack, needle);
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {
+            /*"redivider",
+            "civic",
+            "radar",
+            "level",*/
+            "a man,a plan,a canal:panama"
+    })
+    void isPalindrome(String str) {
+        boolean res = easyTasks.isPalindrome(str);
+        System.out.println(res);
+    }
+
+
+    @Test
+    void addNumberWithoutPlus() {
+        int a = 10;
+        int b = 4;
+        System.out.println(easyTasks.add(a, b));
+    }
+
+
 }
 
 
@@ -207,6 +249,14 @@ class StringArrayConverter extends SimpleArgumentConverter {
             i++;
         }
         return intarray;
+    }
+}
+
+
+class StringToStringArray extends SimpleArgumentConverter {
+    @Override
+    protected Object convert(Object o, Class<?> aClass) throws ArgumentConversionException {
+        return ((String) o).split("\\s*,\\s*");
     }
 }
 

@@ -404,6 +404,95 @@ public class EasyTasks {
         return true;
     }
 
+    /*
+    * task 20 (14)  Longest Common Prefix
+    *
+    * Write a function to find the longest common prefix string amongst an array of strings.
+      If there is no common prefix, return an empty string "".
+
+      Example 1:
+      Input: ["flower","flow","flight"]
+      Output: "fl"
+
+      Example 2:
+      Input: ["dog","racecar","car"]
+      Output: ""
+      Explanation: There is no common prefix among the input strings.
+    *
+    * */
+    String longestCommonPrefix(String[] strs) {
+        Arrays.sort(strs, Comparator.comparingInt(String::length));
+        String shortestWord = strs[0], res;
+        for (int i = shortestWord.length(); i > 0; i--) {
+            int cnt = 0;
+            res = shortestWord.substring(0, i - 1);
+            for (int j = 1; j < strs.length; j++) if (strs[j].indexOf(res) == 0) cnt++;
+            if (cnt == strs.length - 1) return res;
+        }
+        return "";
+    }
+
+
+    /*
+    *task 21 (28)  Implement strStr()
+    *
+    * Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+      Example 1:
+        Input: haystack = "hello", needle = "ll"
+        Output: 2
+    *
+    * */
+    int strStr(String haystack, String needle) {
+        if (needle.equals("")) return 0;
+
+        return 0;
+    }
+
+
+    /*
+     * task 22 (125) Valid Palindrome
+     *
+     * Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+     *
+     * */
+
+    boolean isPalindrome(String s) {
+        int i = -1, n = s.length(), j = s.length();
+        while (i < n / 2) {
+            if (!Character.isLetter(s.charAt(++i))) continue;
+            if (!Character.isLetter(s.charAt(--j))) continue;
+            if (s.charAt(i) != s.charAt(j)) return false;
+        }
+        /*while (i < n / 2) {
+            if (!Character.isLetter(s.charAt(i))) while (Character.isLetter(s.charAt(i)) && (i < n / 2)) ++i;
+            if (!Character.isLetter(s.charAt(j))) while (Character.isLetter(s.charAt(j))) --j;
+            if (s.charAt(i) != s.charAt(j)) return false;
+        }*/
+        return true;
+    }
+
+    public int add(int one, int two) {
+        int res, bound, i = 0;
+        if (one < two) {
+            res = one;
+            bound = two;
+        } else {
+            res = two;
+            bound = one;
+        }
+
+        while (i < bound) {
+            res = increment(res);
+            i = increment(i);
+        }
+
+        return res;
+    }
+
+    private int increment(int x) {
+        return ++x;
+    }
 
 }
 

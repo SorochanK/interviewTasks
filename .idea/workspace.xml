@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56340627-1da0-47c0-9427-d9170ff79303" name="Default" comment="solved tasks and added minStack class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
+    <list default="true" id="56340627-1da0-47c0-9427-d9170ff79303" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MediumTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MediumTasksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EasyTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EasyTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MinStack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/EasyTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EasyTasks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/EasyTasksTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EasyTasksTest.class" afterDir="false" />
@@ -24,23 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EasyTasks.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EasyTasks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3238">
-              <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
+            <state relative-caret-position="184">
+              <caret line="484" column="22" selection-start-line="484" selection-start-column="22" selection-end-line="484" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#14016#14017#0" expanded="true" />
+                <element signature="e#14042#14043#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -48,10 +44,12 @@
       <file leaf-file-name="EasyTasksTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
+            <state relative-caret-position="272">
+              <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5756#5757#0" expanded="true" />
+                <element signature="e#5816#5817#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,12 +61,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>public</find>
+      <find>miss</find>
+      <find>pas</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -83,14 +86,27 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SubClasses/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/SubClasses/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/js_lab3/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/js_lab3/style.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/js_lab3/script1.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/js_lab3/task1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/js_lab3/task2.html" />
+        <option value="$PROJECT_DIR$/src/test/java/MediumTasksTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MediumTasks.java" />
         <option value="$PROJECT_DIR$/src/test/java/EasyTasksTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/EasyTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MinStack.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -109,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,24 +172,35 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="questions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyTasksTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/projects/java/questions/src/test/java/MediumTasksTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,17 +214,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EasyTasksTest.validParentheses">
+  <component name="RunManager" selected="JUnit.EasyTasksTest.addNumberWithoutPlus">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EasyTasksTest.hammingWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyTasksTest.addNumberWithoutPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="hammingWeight" />
+      <option name="METHOD_NAME" value="addNumberWithoutPlus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -207,13 +235,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.maxSubArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumTasksTest.permute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="maxSubArray" />
+      <option name="MAIN_CLASS_NAME" value="MediumTasksTest" />
+      <option name="METHOD_NAME" value="permute" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -224,13 +252,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.plusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumTasksTest.productExceptSelf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="plusOne([Ljava.lang.Integer;)" />
+      <option name="MAIN_CLASS_NAME" value="MediumTasksTest" />
+      <option name="METHOD_NAME" value="productExceptSelf" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -241,13 +269,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumTasksTest.shuffleArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="twoSum" />
+      <option name="MAIN_CLASS_NAME" value="MediumTasksTest" />
+      <option name="METHOD_NAME" value="shuffleArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -258,13 +286,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EasyTasksTest.validParentheses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MediumTasksTest.topKFrequent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="questions" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EasyTasksTest" />
-      <option name="METHOD_NAME" value="validParentheses(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="MediumTasksTest" />
+      <option name="METHOD_NAME" value="topKFrequent([Ljava.lang.Integer;,int)" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -314,19 +342,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EasyTasksTest.maxSubArray" />
-      <item itemvalue="JUnit.EasyTasksTest.hammingWeight" />
-      <item itemvalue="JUnit.EasyTasksTest.twoSum" />
-      <item itemvalue="JUnit.EasyTasksTest.plusOne" />
-      <item itemvalue="JUnit.EasyTasksTest.validParentheses" />
+      <item itemvalue="JUnit.MediumTasksTest.productExceptSelf" />
+      <item itemvalue="JUnit.MediumTasksTest.topKFrequent" />
+      <item itemvalue="JUnit.MediumTasksTest.permute" />
+      <item itemvalue="JUnit.MediumTasksTest.shuffleArray" />
+      <item itemvalue="JUnit.EasyTasksTest.addNumberWithoutPlus" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EasyTasksTest.validParentheses" />
-        <item itemvalue="JUnit.EasyTasksTest.plusOne" />
-        <item itemvalue="JUnit.EasyTasksTest.hammingWeight" />
-        <item itemvalue="JUnit.EasyTasksTest.twoSum" />
-        <item itemvalue="JUnit.EasyTasksTest.maxSubArray" />
+        <item itemvalue="JUnit.EasyTasksTest.addNumberWithoutPlus" />
+        <item itemvalue="JUnit.MediumTasksTest.shuffleArray" />
+        <item itemvalue="JUnit.MediumTasksTest.permute" />
+        <item itemvalue="JUnit.MediumTasksTest.topKFrequent" />
+        <item itemvalue="JUnit.MediumTasksTest.productExceptSelf" />
       </list>
     </recent_temporary>
   </component>
@@ -342,54 +370,65 @@
       <updated>1550594518375</updated>
       <workItem from="1550594527775" duration="23300000" />
       <workItem from="1550827666797" duration="17272000" />
-      <workItem from="1550922797698" duration="4227000" />
+      <workItem from="1550922797698" duration="4410000" />
+      <workItem from="1550942707137" duration="21149000" />
+      <workItem from="1553883007345" duration="2065000" />
     </task>
+    <task id="LOCAL-00001" summary="solved tasks and added minStack class">
+      <created>1550930651073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550930651074</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 26m 16s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="MediumTasksTest_shuffleArray - 2019.02.26 at 21h 06m 12s.xml">
+      <configuration name="MediumTasksTest.shuffleArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 26m 35s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="MediumTasksTest_shuffleArray - 2019.02.26 at 21h 06m 16s.xml">
+      <configuration name="MediumTasksTest.shuffleArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 32m 17s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="MediumTasksTest_shuffleArray - 2019.02.26 at 21h 06m 20s.xml">
+      <configuration name="MediumTasksTest.shuffleArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 35m 52s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 41m 25s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 36m 39s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 44m 52s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_plusOne - 2019.02.23 at 14h 37m 38s.xml">
-      <configuration name="EasyTasksTest.plusOne" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 47m 25s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 49m 52s.xml">
-      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 47m 55s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 50m 31s.xml">
-      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 48m 20s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 50m 48s.xml">
-      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 50m 46s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EasyTasksTest_validParentheses - 2019.02.23 at 15h 54m 04s.xml">
-      <configuration name="EasyTasksTest.validParentheses" configurationId="JUnit" />
+    <history-entry file="EasyTasksTest_addNumberWithoutPlus - 2019.03.29 at 21h 50m 57s.xml">
+      <configuration name="EasyTasksTest.addNumberWithoutPlus" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44799000" />
+    <option name="totallyTimeSpent" value="68196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Tail" order="7" />
@@ -403,19 +442,19 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28794992" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32237872" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26447573" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286385" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988345" visible="true" weight="0.27831715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967033" visible="true" weight="0.23462783" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5011655" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50329673" side_tool="true" weight="0.13834952" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,10 +469,53 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediumTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MediumTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3281">
+          <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5756#5757#0" expanded="true" />
+            <element signature="e#5816#5817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5899">
@@ -450,6 +532,8 @@
           <caret line="173" column="35" lean-forward="true" selection-start-line="173" selection-start-column="35" selection-end-line="173" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5756#5757#0" expanded="true" />
+            <element signature="e#5816#5817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,6 +554,8 @@
           <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5756#5757#0" expanded="true" />
+            <element signature="e#5816#5817#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -585,30 +671,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/EasyTasks.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java" />
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
+          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+          <folding>
+            <element signature="e#19907#19908#0" expanded="true" />
+            <element signature="e#19950#19951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/programs/jdk_8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="4359" column="9" lean-forward="true" selection-start-line="4359" selection-start-column="9" selection-end-line="4359" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParentTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js_lab3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js_lab3/script1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js_lab3/task1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/js_lab3/task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MediumTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediumTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EasyTasksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5756#5757#0" expanded="true" />
+            <element signature="e#5816#5817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EasyTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3238">
-          <caret line="193" column="31" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
+        <state relative-caret-position="184">
+          <caret line="484" column="22" selection-start-line="484" selection-start-column="22" selection-end-line="484" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#14016#14017#0" expanded="true" />
+            <element signature="e#14042#14043#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
